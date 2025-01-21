@@ -26,7 +26,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_recurring_schedules"></a> [recurring\_schedules](#input\_recurring\_schedules) | List of recurring schedules | map(object()) | n/a | yes |
+| <a name="input_recurring_schedules"></a> [recurring\_schedules](#input\_recurring\_schedules) | List of recurring schedules | `map(object())` | n/a | yes |
 
 ## Outputs
 
