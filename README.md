@@ -4,7 +4,7 @@
 module "recurring_schedules" {
   source = "https://github.com/canada-ca-terraform-modules/terraform-fortios-firewall-schedule-recurring"
   providers = {
-    fortios = fortios.fgintcc
+    fortios = fortios.myalias
   }
 
   my_recurring_schedules = {
