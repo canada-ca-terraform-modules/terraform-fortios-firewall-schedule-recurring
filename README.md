@@ -1,4 +1,22 @@
 <!-- BEGIN_TF_DOCS -->
+## Usage
+```hcl
+module "recurring_schedules" {
+  source = "https://github.com/canada-ca-terraform-modules/terraform-fortios-firewall-schedule-recurring"
+  providers = {
+    fortios = fortios.fgintcc
+  }
+
+  my_recurring_schedules = {
+    my_schedule = {
+      start           = "07:00"
+      end             = "21:00"
+      day             = "tuesday, wednesday, friday"
+    },
+  }
+}
+```
+
 ## Requirements
 
 | Name | Version |
